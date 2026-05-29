@@ -125,4 +125,4 @@ CREATE POLICY "Allow all access to income" ON income
 
 -- Enable real-time for both tables
 ALTER publication supabase_realtime ADD TABLE expenses;
-ALTER publication supabase_realtime ADD TABLE income;
+ALTER publication supabase_realtime ADD TABLE income; 
